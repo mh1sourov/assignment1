@@ -1,0 +1,258 @@
+/*header related style*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 100vh;
+    
+}
+
+.nav-title{
+color: #272727;
+font-size: 80px;
+font-weight: 800;
+width: 750px;
+height: 288px;
+}
+
+.nav-description{
+    width: 634px;
+    height: 90px;
+    rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+
+}
+
+.btn-primary{
+    padding: 24px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #E55473;
+    color: white;
+    border: 0px;
+}
+
+.nav-pic{
+width: 650px;
+height: 850px;
+padding-top: 195px;
+}
+
+.featured-flower-sec{
+    text-align: center;
+    width: 1920px;
+    height: 90vh;
+    background-color: #fdfbf;
+    padding-top: 130px;
+}
+
+.featured-flower-title{
+    color: #272727; 
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.featured-flower-description{
+  color: #27272799;  
+  font-size: 18px;
+font-weight: 400;
+}
+
+.featured-flower-box{
+    display: flex;
+    gap: 20px;
+    margin-left: 240px;
+    margin-right: 240px;
+    padding-top: 30px;
+}
+
+.flower-one-container{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-one-style{
+padding-top: 109px;
+}
+
+.flower-two-contaier{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: #0597A026;
+}
+
+.flower-two-style{
+    padding-top:163px
+}
+
+.flower-three-container{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: #477D1126;
+}
+
+.flower-three-style{
+    padding-top: 68px;
+}
+
+/*Hot deal section style*/
+
+.hot-deal-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 60vh;
+    background-color: #E554730D;
+
+}
+
+.discount{
+    color:#272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.off-style{
+    color: #E55473; 
+}
+
+.hot-deal-sec-description{
+    width: 594px;
+    height: 60px;
+}
+
+.hot-deal-pic{
+width: 318px;
+height: 420px;
+}
+
+/*instagram latest deal style*/
+
+.insta-latest-deal-sec{
+    width: 1920px;
+    height: 100vh;
+    background-color:*#fdfbfb;
+}
+
+.insta-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 100px;
+ 
+}
+
+.insta-description{
+    width: width: 594px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+
+.insta-pic-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+margin-left: 240px;
+margin-right: 240px;
+padding-bottom: 85px;
+}
+
+.img-style{
+    width: 342px;
+    height: 396px;
+}
+
+/*The Latest Deals Section*/
+
+.deal-headline{
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+padding-top: 70px;
+}
+
+
+.deal-description{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+
+}
+
+.deal-and-input-box{
+    background-image: url(/flower-asset/rectangle-9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.deal-subscribe-section{
+    background-image: url(/flower-asset/rectangle-9.png);
+    width: 1418px;
+    height: 449px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 253px;
+    margin-bottom: 100px;
+    border: none;
+    border-radius: 8px;
+}
+
+.input-subscribe-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input-field{
+    width: 700px;
+    height: 64px;
+    border: 0px;
+    color: white;
+}
+
+/*footer section style */
+
+.foot-box{
+    text-align: center;
+    width: 1920px;
+    height: 350px;
+    background-color: #111010;
+    color: white;
+    margin-top: 280px;
+padding-top: 170px;
+}
+
+.foot-title{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.flower-color{
+color:    #E55473;
+}
+
+.web-info{
+    color: #FFFFFF66;
+    font-size: 16px;
+    font-weight: 400; 
+}
+
